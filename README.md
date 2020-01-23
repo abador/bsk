@@ -86,7 +86,7 @@ $opis = $_POST['desc'];
 $idClient = $_SESSION['id'];
 // $opis = htmlentities($opis, ENT_QUOTES, "UTF-8");
 
-htmlentites będzie tutaj najprostszą (ale nie jedyną) metodą zabezpieczenia poprzez podmienienie określonych znaków na encje html.
+htmlentites będzie tutaj najprostszą (ale nie jedyną) metodą zabezpieczenia poprzez podmienienie określonych znaków na encje html. (inne języki programowania i ich frameworki do tworzenia aplikacji internetowych będą miały inne metody od tego)
 Dodatkowo można zastosować escaping user input (wcześniej wspomniane przy mysqli_real_escape_string) przy wszelkich encjach HTML, URL czy javascriptu (jeśli nie chcemy pozwolić użytkownikom na używanie kodu na stronie)
 Walidacja inputu usera- nie pozwalać na używanie określonych znaków w inpucie
 
