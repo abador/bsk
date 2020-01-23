@@ -1,0 +1,35 @@
+body
+{
+    background-color: black;
+}
+
+.mid
+{
+    margin:auto !important;
+}
+
+.loginForm
+{
+    margin:auto;
+}
+
+.hide
+{
+    display: none !important;
+}
+
+.welcome
+{
+    width: 50vw !important;
+    margin:auto;
+}
+
+.reg
+{
+    margin:auto;
+}
+
+.rankInfo
+{
+    margin:auto;
+}
