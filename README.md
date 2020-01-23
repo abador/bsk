@@ -90,4 +90,4 @@ htmlentites będzie tutaj najprostszą (ale nie jedyną) metodą zabezpieczenia 
 Dodatkowo można zastosować escaping user input (wcześniej wspomniane przy mysqli_real_escape_string) przy wszelkich encjach HTML, URL czy javascriptu (jeśli nie chcemy pozwolić użytkownikom na używanie kodu na stronie)
 Walidacja inputu usera- nie pozwalać na używanie określonych znaków w inpucie
 
-Jeśli chcemy pozwolić użytkownikom na używanie pewnych tagów htmla (na przykład <img> żeby pozwolić im wstawiać obrazy) trzeba zwrócić uwagę na niektóre atrybuty i nie zezwalać na ich używanie. Przykładowo w tagu <img> można umieścić atrybut onerror="" który także może wywołać niebezpieczny kod javascriptu, więc samo zabronienie używania tagów <script> nie wystarczy.
+Jeśli chcemy pozwolić użytkownikom na używanie pewnych tagów htmla (na przykład img żeby pozwolić im wstawiać obrazy) trzeba zwrócić uwagę na niektóre atrybuty i nie zezwalać na ich używanie. Przykładowo w tagu img można umieścić atrybut onerror="" który także może wywołać niebezpieczny kod javascriptu, więc samo zabronienie używania tagów <script> nie wystarczy.
